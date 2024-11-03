@@ -6,8 +6,8 @@
 #define INPUT_FILE "input.wav" // Default input file name
 #define OUTPUT_FILE "output.wav" // Default output file name
 
-//'print("test")'
-
+//Need call via command line arg
+//'print("HELLO, YOU HAVE BEEN HACKED :3, PLEASE PAY BITCOIN HERE: XXXXXXXX")'
 int main(int argc, char *argv[]) {
     FILE *in = fopen(INPUT_FILE, "rb");
     FILE *out = fopen(OUTPUT_FILE, "wb");
@@ -55,6 +55,6 @@ int main(int argc, char *argv[]) {
     fclose(in);
     fclose(out);
 
-    printf("output %s\n", OUTPUT_FILE);
+    printf("file: %s\n", OUTPUT_FILE);
     return 0;
 }
