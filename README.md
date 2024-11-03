@@ -1,6 +1,6 @@
 # AudioSteganography
 
-#Usage
+## Usage
 1) compile c executables via makefile
    ```bash
    make
