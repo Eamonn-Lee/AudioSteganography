@@ -3,10 +3,10 @@
 #include <string.h>
 
 #define HEADER_SIZE 44 // WAV header size
-#define INPUT_FILE "output.wav" // Default input file name
+//#define INPUT_FILE "output.wav" // Default input file name
 
-int main() {
-    FILE *in = fopen(INPUT_FILE, "rb");
+int main(int argc, char *argv[]) {
+    FILE *in = fopen(argv[1], "rb");
 
     if (!in) {
         printf("Error file\n");
@@ -37,7 +37,7 @@ int main() {
 
     fclose(in);
 
-    printf("Decode: %s\n", decode);
+    printf("%s", decode);
     free(decode);
     return 0;
 }
