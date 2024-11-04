@@ -3,7 +3,6 @@
 #include <string.h>
 
 #define HEADER_SIZE 44 // WAV header size
-//#define INPUT_FILE "output.wav" // Default input file name
 
 int main(int argc, char *argv[]) {
     FILE *in = fopen(argv[1], "rb");

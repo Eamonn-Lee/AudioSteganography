@@ -11,7 +11,6 @@
 int main(int argc, char *argv[]) {
     FILE *in = fopen(INPUT_FILE, "rb");
     FILE *out = fopen(OUTPUT_FILE, "wb");
-    printf("%s", argv[1]);
 
     if (!in || !out) { //error checking files
         printf("Cannot find files\n");
