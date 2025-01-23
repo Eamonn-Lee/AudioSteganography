@@ -1,7 +1,7 @@
 # AudioSteganography
 Completed for COMP6841
 ## Failed techniques
-Amplitude Zero crossing encoder and decoder are within 'failAmpZero/main.py'
+Amplitude Zero crossing encoder and decoder are within `failAmpZero/main.py`
 
 Frequency Domain encoder and decoder are `failFrequencyDomain/e.py` and `failFrequencyDomain/d.py` respectively
 
