@@ -3,10 +3,10 @@ Completed for COMP6841
 ## Failed techniques
 Amplitude Zero crossing encoder and decoder are within 'failAmpZero/main.py'
 
-Frequency Domain encoder and decoder are 'failFrequencyDomain/e.py' and 'failFrequencyDomain/d.py' respectively
+Frequency Domain encoder and decoder are `failFrequencyDomain/e.py` and `failFrequencyDomain/d.py` respectively
 
 ## Application
-'driver.py' utilises 'harmful.py' to simulate running harmful code as a example of using audiosteganography in a malicious context
+`driver.py` utilises `harmful.py` to simulate running harmful code as a example of using audiosteganography in a malicious context
 
 ## Usage
 1) compile c executables via makefile
